@@ -13,7 +13,7 @@ public class EnvironmentConfiguration {
         if (envName == null)
             envName = envNameDefault;
 
-        swUrl = String.format("https://swapi.%s/api/", envName);
+        swUrl = "https://petstore3.swagger.io/api/v3/";
     }
 
     public static synchronized EnvironmentConfiguration getInstance() {

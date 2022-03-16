@@ -1,0 +1,283 @@
+[
+  {
+    "id": 300,
+    "name": "mastiff-bruno",
+    "photoUrls": [
+      "http://xyz.com"
+    ],
+    "tags": [],
+    "status": "available"
+  },
+  {
+    "id": 4,
+    "category": {
+      "id": 103,
+      "name": "Husky"
+    },
+    "name": "doggie",
+    "photoUrls": [
+      "abc.in",
+      "abc.in",
+      "abc.in"
+    ],
+    "tags": [
+      {
+        "id": 24,
+        "name": "dog"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 987,
+    "category": {
+      "id": 1,
+      "name": "Dogs"
+    },
+    "name": "bruno_boxer",
+    "photoUrls": [
+      "http://xyz.com"
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 12215,
+    "category": {
+      "id": 1,
+      "name": "Dogs"
+    },
+    "name": "pet_name12215",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 1223,
+    "category": {
+      "id": 1,
+      "name": "Dogs"
+    },
+    "name": "Doggie",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 1123,
+    "category": {
+      "id": 1,
+      "name": "Dogs"
+    },
+    "name": "doggie",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 123,
+    "category": {
+      "id": 1,
+      "name": "Dogs"
+    },
+    "name": "Doggie333",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 131111454,
+    "category": {
+      "id": 1,
+      "name": "Dogs"
+    },
+    "name": "John",
+    "photoUrls": [
+      "no"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "small"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 2222,
+    "category": {
+      "id": 1,
+      "name": "Dogs"
+    },
+    "name": "Doggie123",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 3333,
+    "category": {
+      "id": 1,
+      "name": "Dogs"
+    },
+    "name": "Doggie1337",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 9,
+    "name": "Cupcake",
+    "photoUrls": [
+      "https://petstore3.swagger.io/resources/photos/623389095.jpg"
+    ],
+    "tags": [],
+    "status": "available"
+  },
+  {
+    "id": 8120,
+    "name": "Snappy_openAPI",
+    "photoUrls": [
+      "https://petstore3.swagger.io/resources/photos/623389095.jpg"
+    ],
+    "tags": [],
+    "status": "available"
+  },
+  {
+    "id": 101,
+    "category": {
+      "id": 1,
+      "name": "Dogs"
+    },
+    "name": "doggie11111",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 111,
+    "category": {
+      "id": 11,
+      "name": "Dos"
+    },
+    "name": "doggie",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 8,
+    "category": {
+      "id": 11,
+      "name": "**"
+    },
+    "name": "****",
+    "photoUrls": [
+      "************************"
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "*"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 1,
+    "category": {
+      "id": 1,
+      "name": "Hola"
+    },
+    "name": "Perrito",
+    "photoUrls": [
+      "/tmp/inflector2585284408318089978.tmp"
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "Bizcocho"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 10,
+    "category": {
+      "id": 1,
+      "name": "Dogs"
+    },
+    "name": "doggie",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  }
+]
