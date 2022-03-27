@@ -25,7 +25,7 @@ public class ResponseBodyConverter {
         return new JSONArray(responseString);
     }
 
-    private void toStringWithContentType() {
+    public void toStringWithContentType() {
         this.responseString = response.then().contentType(contentType)
                 .extract().response().asString();
     }

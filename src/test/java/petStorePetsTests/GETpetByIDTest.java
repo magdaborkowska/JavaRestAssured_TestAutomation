@@ -15,7 +15,7 @@ import java.util.stream.Stream;
 import static com.shazam.shazamcrest.matcher.Matchers.sameBeanAs;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class GetPetByID {
+public class GETpetByIDTest {
 
     private static petstoreRestOperations petstoreRestOperations;
 
@@ -30,7 +30,7 @@ public class GetPetByID {
         petstoreRestOperations = new petstoreRestOperations();
     }
 
-    @ParameterizedTest(name = "PetByID test: {0} - {1}")
+    @ParameterizedTest(name = "PetByID test: {0} - {1} -{2} - {3}")
     @MethodSource("dataProvider")
     void getPetByIdDetails(String petId, String categoryName, String name, String status) {
 

@@ -13,7 +13,7 @@ public class petstoreRestOperations extends RestRequests {
 
     public Response getPetById(String id) {
         return given()
-                .log().uri()
+                .log().all()
                 .baseUri(uri)
                 .basePath("pet/" + id)
                 .get();
@@ -21,10 +21,27 @@ public class petstoreRestOperations extends RestRequests {
 
     public Response getPetByStatus(String status) {
         return given()
-                .log().uri()
+                .log().all()
                 .baseUri(uri)
-                .basePath("pet/findByStatus?status=" + status)
+                .basePath("pet/findByStatus")
+                .formParam("status", status)
                 .get();
     }
-
+    public Response postOrder(String requestBody) {
+        return given()
+                .log().all()
+                .baseUri(uri)
+                .basePath("store/order")
+                .header("Content-Type", "application/json")
+                .body(requestBody)
+                .post();
+    }
+    public Response deleteOrder(String id) {
+        return given()
+                .log().all()
+                .baseUri(uri)
+                .header("Content-Type", "application/json")
+                .basePath("store/order/" + id)
+                .delete();
+    }
 }
