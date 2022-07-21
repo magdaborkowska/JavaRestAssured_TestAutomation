@@ -1,1 +1,1 @@
-Basic Test Automation Framework with REST Assured
+Basic API Test Automation Framework with REST Assured
